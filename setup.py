@@ -32,8 +32,3 @@ setup(
         'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3.6'],
     )
-    
-import matplotlib.pyplot as plt
-import datetime as dt
-import matplotlib.dates as mdates
-import cartopy.crs as ccrs

@@ -111,15 +111,15 @@ def plotTS_modelNWDM(obsdata_time,
     plt.tight_layout()
     
     
-def dotplot(ugrid, 
-            modData_value, 
-            obsData_x, obsData_y, obsData_value,
-            pltLabel,
-            clim,
-            key, 
-            year, 
-            pltTitle, 
-            **kwargs):
+def dotplot_modelNWDM(ugrid, 
+                      modData_value, 
+                      obsData_x, obsData_y, obsData_value,
+                      pltLabel,
+                      clim,
+                      key, 
+                      year, 
+                      pltTitle, 
+                      **kwargs):
     """
     Plot map of model output with NWDM data as dots.
 
