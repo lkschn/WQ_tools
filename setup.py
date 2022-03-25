@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-from setuptools import setup, find_packages
+from setuptools import setup
 
 setup(
     name="WQ_tools",
     version="0.1.0",
-    packages=find_packages(),
-    install_requires=[],
+    packages=['WQ_tools'],
+    install_requires=['matplotlib>=3.0'],
     zip_safe=False,
     author="Lisa Schneider",
     author_email="lisa.schneider@deltares.nl",
